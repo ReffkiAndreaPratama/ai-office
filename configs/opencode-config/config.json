@@ -1,0 +1,18 @@
+﻿{
+  "mcp": {
+    "godot": {
+      "type": "local",
+      "command": "godot-mcp",
+      "args": [],
+      "environment": {
+        "GODOT_PATH": "D:\\\\SteamLibrary\\\\steamapps\\\\common\\\\Godot Engine\\\\godot.windows.opt.tools.64.exe"
+      }
+    },
+    "roblox-studio": {
+      "type": "local",
+      "command": "cmd.exe",
+      "args": ["/c", "cd /d %LOCALAPPDATA%\\Roblox && .\\mcp.bat"]
+    }
+  }
+}
+
